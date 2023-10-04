@@ -1,0 +1,220 @@
+body {
+    margin: 0px;
+}
+.nav_menu{
+    height: 70px;
+    display: flex;
+    background-color: rgb(255, 153, 0);
+}
+
+.nav_menu > div:first-child{
+    width: 30%;
+    justify-content: center;
+    display: flex;
+}
+
+.nav_menu > div:last-child{
+    width: 70%;
+}
+.Menu{
+    display: flex;
+}
+.Menu > li{
+    margin: 0px 30px;
+    list-style: none;
+}
+.Menu > li > a {
+    color: rgb(39, 39, 39);
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    transition: 600ms;
+    border-bottom: 1px solid transparent;
+}
+
+.Menu > li > a:hover{
+    border-color: rgb(39, 39, 39);
+}
+.flex{
+    display: flex;
+}
+.info_section{
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    padding-left: 10%;
+}
+.info_section.flex{
+    flex-direction: column;
+}
+.info_section > h1{
+    font-size: 5em;
+    margin-bottom: 5px;
+}
+.info_section > h5{
+    align-content: flex-start;
+    margin-top: 5px;
+}
+article.flex > div{
+    width: 25%;
+    height: 180px;
+    border: rgb(250, 196, 78) 1.5px solid;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 190px;
+}
+article.flex{
+    background-color: rgb(255, 153, 0);
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+article.flex > div > h2{
+    margin-bottom: 1px;
+}
+article.flex > div > h5{
+    margin-bottom: 5px;
+}
+
+body > div > aside{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+aside > div:first-child > * {
+    text-align: center;
+    padding: 10px 30%;
+}
+aside > div:last-child > div:first-child{
+    width: 90%;
+    justify-content: end;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    padding: 0px;
+    
+
+}
+aside > div:last-child > div{
+    width: 10%;
+    height: 500px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 100px;
+}
+aside > div:last-child > div > p,
+div > header > h1{
+    text-align: center;
+}
+aside > div:first-child > h1{
+    margin-top: 20px;
+}
+aside > div:last-child > div > img{
+    padding-right: 25px;
+}
+.flex-lista{
+    background-color: rgba(255, 255, 255, 0.623);
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-lista > div:first-child{
+    width: 50%;
+}
+
+.flex-lista > div:last-child{
+    padding-left: 70px;
+    width: 50%;
+    align-self: center;
+}
+
+.flex-lista > div > aside {
+    display: flex;
+}
+
+body > div > div:first-of-type{
+    padding-bottom: 50px;
+}
+
+.publicidad{
+    background-color: rgb(255, 153, 0);
+    display: flex;
+}
+.publicidad > article > div > h1{
+    text-align: center;
+    padding-top: 40px;
+}
+
+testimonio {
+    display: flex ;
+    padding: 0px 20%;
+
+}
+testimonio > img {
+    border-radius: 300px;
+    margin: 10px;
+}
+
+testimonio > p{
+    padding-left: 30px;
+    text-align: justify;
+    
+}
+article > div:last-child{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.publicidad  button {
+    padding: 10px;
+    margin: 10px;
+
+}
+
+indicador {
+    display: flex;
+    background-color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    text-align: center;
+}
+
+slide{
+    background-image: url("../img/123.png");
+    height: 450px;
+    display: block;
+    background-size: cover;
+    background-position: center;
+}
+
+info {
+    display: flex;
+    padding: 3% 0px;
+    background-color: blanchedalmond;
+}
+
+info > div {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    padding-right: 5%;
+}
+
+info > div:last-child{
+    justify-content: center;
+}
+
+info > div > section {
+    background-color: blanchedalmond;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5%;
+}

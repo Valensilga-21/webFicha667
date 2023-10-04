@@ -1,0 +1,91 @@
+h1{
+    COLOR:rgb(0, 0, 0) ;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: rgb(23, 174, 255, 0.20);
+    background-color: #2a155f;
+    background-color: hsl(360, 100%, 50%, 0.2);
+    background-position: 40px 20px;
+    background-size: cover;
+}
+
+.colorNuevo{
+    color: chocolate;
+}
+.colorCorreccion{
+    color: rgb(63, 23, 243);
+}
+
+#footerTabla, .colorCorreccion{
+    text-shadow: 5px 5px 5px black;
+}
+
+table thead tr th{
+    text-shadow: 2PX 2PX 2PX black;
+}
+
+#info{
+    color: rgb(146, 30, 255);
+}
+
+.product#info{
+    color: brown;
+}
+.info{
+    color: bisque;
+}
+
+.fieldset{
+    color: rgb(133, 255, 89);
+}
+
+.amarillo{
+    
+    width: 20%;
+    height: 200px;
+    background-color: hsl(60, 100%, 50%);
+}   
+.rojo{
+    width: 20%;
+    height: 200px;
+    background-color: hsl(0, 100%, 50%);
+}
+.verde{
+    width: 20%;
+    height: 200px;
+    background-color: hsl(147, 100%, 50%);
+}
+.rosa{
+    width: 20%;
+    height: 200px;
+    background-color: hsl(320, 100%, 50%);
+}
+@media (max-width: 1000px){
+    .amarillo {
+        width: 20%;
+        background-color: rgb(255, 162, 0);
+        border-color: gold;
+        transition: all 2s ease;
+    }  
+
+    h1 {
+        font-family: 'Courier New', Courier, monospace;
+        transition: ALL 2s ease;
+    }
+}
+@media (max-width: 600px) {
+    .amarillo {
+        background-color: darkorange;
+    }
+}
+.padre{
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-evenly;
+}
+
+
+    
